@@ -21,6 +21,7 @@ import { ShoppingCartComponent } from './restaurant-detail/shopping-cart/shoppin
 import { OrderComponent } from './order/order.component';
 import { InputComponent } from './shared/input/input.component';
 import { FormsModule } from '@angular/forms';
+import { RadioComponent } from './shared/radio/radio.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { FormsModule } from '@angular/forms';
     MenuItemComponent,
     ReviewsComponent,
     OrderComponent,
-    InputComponent
+    InputComponent,
+    RadioComponent
   ],
   imports: [
     BrowserModule,
